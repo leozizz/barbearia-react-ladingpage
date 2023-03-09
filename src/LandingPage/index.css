@@ -3,8 +3,13 @@
     color: #000;
 }
 
+.modo-escuro {
+    background-color: #252323;
+    color: #fff;
+}
+
 .header {
-    width: 100vw;
+    max-width: 100vw;
     height: 10vh;
     display: flex;
 }
