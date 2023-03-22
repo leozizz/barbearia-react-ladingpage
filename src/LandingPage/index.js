@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import './index.css'
 
 export default function LandingPage() {
+    
+    const modoClaro = "modo-claro"
+    const modoEscuro = "modo-escuro"
+
+    const [novoEstilo, setNovoEstilo] = useState(true)
+
+    const mudaEstilo = () => {
+        setNovoEstilo(!novoEstilo)
+    }
+
     return (
-        <div className="modo-escuro">
+        <div className={novoEstilo ? modoClaro : modoEscuro}>
             <header className="header">
                 <div className="header-container limitar-largura">
                     <img className="logo" src="./assets/img/barbearia-logo.png" alt="logo"/>
-                    <button className="botao"><img src="./assets/img/moon.png" alt="icone"/>Dark</button>
+                    <button className="botao" onClick={mudaEstilo}>
+                        <img src={novoEstilo ? "./assets/img/moon.png" : "./assets/img/sun.png"} alt="icone"/>
+                        {novoEstilo ? "Dark" : "Sun"}
+                    </button>
                 </div>
             </header>
 
@@ -24,7 +37,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <footer>Desenvolvido por Leozizz</footer>
+            <footer className="footer">Desenvolvido por Leozizz</footer>
         </div>
     )
 }

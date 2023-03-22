@@ -1,11 +1,13 @@
 .modo-claro {
     background-color: #fff;
     color: #000;
+    transition: 0.5s;
 }
 
 .modo-escuro {
     background-color: #252323;
     color: #fff;
+    transition: 0.5s;
 }
 
 .header {
@@ -26,8 +28,8 @@
 }
 
 .header-container .botao {
-    width: 80px;
-    height: 30px;
+    width: 75px;
+    height: 35px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -35,7 +37,9 @@
     background: none;
     border: 2px solid #B2987D;
     border-radius: 100px;
+    cursor: pointer;
 }
+
 .header-container .botao img {
     height: 100%;
 }
@@ -67,6 +71,10 @@
     color: #B2987D;
     font-size: 40px;
     font-family: 'Great Vibes', cursive;
+}
+
+.footer {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
