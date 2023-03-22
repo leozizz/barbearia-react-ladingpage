@@ -19,7 +19,7 @@ export default function LandingPage() {
                     <img className="logo" src="./assets/img/barbearia-logo.png" alt="logo"/>
                     <button className="botao" onClick={mudaEstilo}>
                         <img src={novoEstilo ? "./assets/img/moon.png" : "./assets/img/sun.png"} alt="icone"/>
-                        {novoEstilo ? "Dark" : "Sun"}
+                        {novoEstilo ? "Dark" : "Light"}
                     </button>
                 </div>
             </header>
