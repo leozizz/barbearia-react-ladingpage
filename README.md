@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# React - Barber Shop Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma Landing Page simples para uma barbearia. A página é responsiva e permite alternar entre os modos Light e Dark. O projeto foi construído com React.JS e utiliza o estado do componente com useState para controlar o tema da página.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Alternância de temas (Light e Dark) ao clicar no botão de alternância.
+- Design responsivo que se adapta a diferentes tamanhos de tela.
+- Estrutura simples com apresentação da barbearia.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.JS
+- JavaScript
+- HTML5
+- CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instruções de Uso
 
-### `npm test`
+1. Clone o repositório para o seu computador.
+2. Abra o terminal e navegue até o diretório onde o projeto foi clonado.
+3. Instale as dependências do projeto com o comando **`npm install`**.
+4. Inicie o servidor de desenvolvimento com o comando **`npm start`**.
+5. Abra o navegador e acesse **`http://localhost:3000`** para visualizar a página.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionamento
 
-### `npm run build`
+A funcionalidade de Light e Dark mode foi implementada utilizando o hook useState do React.JS. O tema da página é alternado ao clicar no botão correspondente, que dispara um evento onClick. Para alternar o tema, foram utilizados ifs ternários na estrutura da página, que alteram o esquema de cores da página e o ícone do botão.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Conclusão
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este é um projeto simples para demonstrar a utilização de React.JS na criação de uma Landing Page responsiva com alternância de temas. O código é livre para uso e pode ser modificado de acordo com as necessidades do usuário.
